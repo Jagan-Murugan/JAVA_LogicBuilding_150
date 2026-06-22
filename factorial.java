@@ -5,7 +5,7 @@ public static void main(String[] args){
   for(int i = 1;i<=n;i++){
     fact *=i;
   }
-  System.err.println(fact);
+  System.out.println(fact);
 
 }
 }
