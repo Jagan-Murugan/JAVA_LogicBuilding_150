@@ -5,6 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "stepping",
+      "request": "launch",
+      "mainClass": "stepping",
+      "projectName": "Java_Logic_Building_d9b73f39"
+    },
+    {
       "type": "jdk",
       "request": "launch",
       "name": "Launch Java App"
