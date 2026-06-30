@@ -1,4 +1,28 @@
+/*
+36. Find Password (stable unstable):
+Definition
 
+A number is stable if all digits occur the same number of times.
+
+Example Input
+Array = {122, 1313, 456, 898}
+Step 1: Check each number
+Number	Digit Frequency	Stable?
+122	1→1, 2→2	❌ Unstable
+1313	1→2, 3→2	✅ Stable
+456	4→1,5→1,6→1	✅ Stable
+898	8→2,9→1	❌ Unstable
+Step 2
+Maximum unstable = 898
+Minimum unstable = 122
+Output
+Password = 898 + 122 = 1020
+Best Approach
+
+✔ Count digit frequencies using an array of size 10.
+
+Time Complexity: O(N × digits)
+*/
 public class Find_password {
 
   static boolean isstable(int n){
